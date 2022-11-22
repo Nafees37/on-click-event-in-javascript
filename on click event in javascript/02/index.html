@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>on click event in javascript</title>
+  <style>
+   img {
+    border-radius: 10px;
+    border: 2px solid gray;
+    width: 100%;
+    height: 530px;
+   }
+
+   .mainImage {
+    float: left;
+    width: 60%;
+   }
+
+   button img {
+    width: 250px;
+    height: 90px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 0px;
+   }
+
+   button {
+    margin: 5px;
+   }
+
+   .side {
+    float: left;
+    width: 40%;
+   }
+  </style>
+ </head>
+ <body>
+  <center style="margin-top: 50px;">
+   <div class="mainImage">
+    <img id="image" src="images/1.jpg" alt="" />
+   </div>
+
+   <div class="side">
+    <button onclick="document.getElementById('image').src='images/1.jpg'">
+     <img src="images/1.jpg" alt="" />
+    </button>
+
+    <button onclick="document.getElementById('image').src='images/10.webp'">
+     <img src="images/10.webp" alt="" />
+    </button>
+
+    <button onclick="document.getElementById('image').src='images/2.jpg'">
+     <img src="images/2.jpg" alt="" />
+    </button>
+
+    <button onclick="document.getElementById('image').src='images/3.jpg'">
+     <img src="images/3.jpg" alt="" />
+    </button>
+
+    <button onclick="document.getElementById('image').src='images/4.jpg'">
+     <img src="images/4.jpg" alt="" />
+    </button>
+
+    <button onclick="document.getElementById('image').src='images/5.jpg'">
+     <img src="images/5.jpg" alt="" />
+    </button>
+
+    <button onclick="document.getElementById('image').src='images/6.jpg'">
+     <img src="images/6.jpg" alt="" />
+    </button>
+
+    <button onclick="document.getElementById('image').src='images/7.png'">
+     <img src="images/7.png" alt="" />
+    </button>
+
+    <button onclick="document.getElementById('image').src='images/8.jpeg'">
+     <img src="images/8.jpeg" alt="" />
+    </button>
+
+    <button onclick="document.getElementById('image').src='images/9.webp'">
+     <img src="images/9.webp" alt="" />
+    </button>
+   </div>
+  </center>
+ </body>
+</html>
